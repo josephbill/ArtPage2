@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/styles.css">
+<!--    this is internal css : css within the file -->
+    <style>
+        /* this is a comment in css */
+    /*    rules of our css */
+    /*    styling using tag */
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 20px;
+        }
+    /*    styling using id */
+        #button1 {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            margin: 20px;
+        }
+    /*    styling using a class name */
+         .myFirstClass {
+             background-color: yellow;
+            color: black;
+            padding: 10px;
+            margin: 20px;
+         }
+    </style>
+</head>
+<body>
+<!-- inline css : this is when you write css using the style attribute-->
+<!--black-->
+   <p style="color: black; font-size: 20px;">Hello World</p>
+<!--blue-->
+   <p style="color: blue; font-size: 20px;">Hello World Two</p>
+<!--green-->
+   <p style="color: green; font-size: 20px;">Hello World Three</p>
+
+<!-- these are styled using internal css  -->
+<!--styled using id's-->
+    <button id="button1">CLick me</button>
+<!--styled using class attribute-->
+    <button class="myFirstClass">CLick me 2</button>
+    <button class="myFirstClass">CLick me 3</button>
+<!--styled using tag-->
+    <button>CLick me 4</button>
+    <button>CLick me 5</button>
+
+  <p class="myFirstClass">I am using a class</p>
+<!--circle image -->
+<img src="../assests/image.jpg" height="200" width="200" id="image1"/>
+<!--thumbnails-->
+<img src="../assests/image.jpg" height="200" width="200" class="image2"/>
+<img src="../assests/image.jpg" height="200" width="200" class="image2"/>
+<!--position them at the center and make opacity / blur-->
+<img src="../assests/image.jpg" height="200" width="200"/>
+<img src="../assests/image.jpg" height="200" width="200"/>
+
+</body>
+</html>
