@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grid Layout</title>
+<!--     internal css -->
+     <style>
+       #item1 {
+          background-color: red;
+          grid-area: item1;
+          padding: 10px;
+          margin: 10px;
+       }
+        #item2 {
+          background-color: black;
+          grid-area: item2;
+          padding: 10px;
+          margin: 10px;
+       }
+         #item3 {
+          background-color: green;
+           grid-area: item3;
+          padding: 10px;
+          margin: 10px;
+       }
+          #item4 {
+          background-color: yellow;
+              grid-area: item4;
+          padding: 10px;
+          margin: 10px;
+       }
+       #item5 {
+          background-color: purple;
+           grid-area: item5;
+          padding: 10px;
+          margin: 10px;
+       }
+       #item6 {
+          background-color: darkblue;
+           grid-area: item6;
+          padding: 10px;
+          margin: 10px;
+       }
+       #item7 {
+          background-color: brown;
+           grid-area: item7;
+          padding: 10px;
+          margin: 10px;
+       }
+       .grid-container {
+         display: grid;
+         grid-template-areas:
+         'item1 item1 item2 item2 item2 item2 item2'
+         'item3 item4 item4 item4 item4 item4 item5'
+         'item6 item6 item6 item6 item6 item6 item6'
+         'item7 item7 item7 item7 item7 item7 item7'
+       ;
+       }
+
+
+       @media only screen and (max-width: 600px) {
+/*    inside this I can reference my css rules */
+           .grid-container {
+         display: grid;
+         grid-template-areas:
+         'item1 item2 item2 item2 item2 item2 item2'
+         'item3 item3 item3 item3 item3 item3 item3'
+         'item4 item4 item4 item4 item4 item4 item4'
+         'item5 item5 item5 item5 item5 item5 item5'
+         'item6 item6 item6 item6 item6 item6 item6'
+         'item7 item7 item7 item7 item7 item7 item7'
+       ;
+       }
+
+         }
+     </style>
+  <link rel="stylesheet" href="../../css/styles.css">
+
+</head>
+<body>
+<!-- to define to grid we start with an overall container -->
+     <div class="grid-container">
+<!--       these are partions/sections of ur page depending on ur design -->
+<!--       color mapping : display my grid before adding content -->
+         <div id="item1">
+           <img  src="../../assests/image.jpg" height="50" width="50"/>
+         </div>
+         <div id="item2">2</div>
+         <div id="item3">3</div>
+         <div id="item4">4</div>
+         <div id="item5">5</div>
+         <div id="item6">6</div>
+         <div id="item7">7</div>
+     </div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!--this declares the code as HTML based -->
+<!DOCTYPE html>
+<!--to write html , tags -->
+<!-- start tag <>  closing tag </>  -->
+<!--   </>   -->
+<html>
+<!-- here we can write more html elements -->
+<!-- meta data : more information about this web page(html script in use) : head -->
+<head>
+<!--   links to styling classes : css / links to other tools (BOOTSTRAP) -->
+<!--    href and rel are attributes for the link element : attributes is meta data : more info about an element -->
+    <link href="css/styles.css" rel="stylesheet"/>
+    <title>Art Homepage</title>
+</head>
+<!--body renders/ outputs what my user can see -->
+<body>
+
+<!--  to do a paragraph use the p element -->
+  <p>Hello World</p>
+  <p
+  <h4>Block level</h4>
+<!-- to have an internal web page(other html files) or external link(web pages not in your project: hosted/deployed))- -->
+<!-- anchor tag-->
+<!--internal linking-->
+<p>
+      <a href="public/about.html">Internal Link : Go to About.html</a>
+
+</p>
+<!--external-->
+   <a href="https://www.google.com" target="_blank">External link : goes to other hosted webpages </a>
+<!--headings-->
+   <h1>Heading</h1>
+   <h2>Heading</h2>
+   <h3>Heading</h3>
+   <h4>Heading</h4>
+   <h5>Heading</h5>
+   <h6>Heading</h6>
+<!--lists-->
+<!--ordered lists 1. 2. -->
+    <ol>
+        <h4>Premier League Table</h4>
+
+        <li>  <a href="https://www.arsenal.com">Arsenal</a> </li>
+        <li>Man City</li>
+        <li>Newcastle United</li>
+        <li>Manchester United</li>
+    </ol>
+<!--unordered lists . . . -->
+     <ul>
+         <li>Kales</li>
+         <li>Onions</li>
+         <li>Tomatoes</li>
+     </ul>
+
+<!-- images -->
+<img src="assests/image.jpg" width="200" height="200"/>
+
+<!-- table -->
+<table>
+    <thead>
+      <tr>
+          <th>Name</th>
+          <th>ID Number</th>
+          <th>D.O.B</th>
+          <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+<!--    1 record in the table -->
+       <tr>
+           <td>Joseph</td>
+           <td>xxxxxx</td>
+           <td>20th November</td>
+           <td>26</td>
+       </tr>
+<!--  have 3 records -->
+
+    </tbody>
+
+</table>
+
+<!-- button -->
+<button>Click Me</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

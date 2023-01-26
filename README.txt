@@ -31,3 +31,44 @@ selector :    1. The name of the html element : p , button ,
                same rules which were written once.
 
 
+
+
+     Creating a LAYOUT TECHNIQUE.
+     1. Traditional Way : Css properties and tables
+     2. CSS GRID
+     3. CSS FLEXBOX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
