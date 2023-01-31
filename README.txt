@@ -39,6 +39,15 @@ selector :    1. The name of the html element : p , button ,
      3. CSS FLEXBOX
 
 
+CSS FLEXBOX :
+
+// helps us to design flexible responsive layouts without having to use css properties like float and positioning
+
+Tomorrow Sessions
+
+Bootstrap GRID
+Bootstrap Flex
+
 
 
 
