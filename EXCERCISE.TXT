@@ -1,0 +1,3 @@
+Replicate section 2 and 3 from index.html in artLandingBS.html
+
+checking 4:10PM.
